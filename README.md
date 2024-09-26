@@ -48,3 +48,20 @@ the index of the annotation to be deleted and click `Delete Key-Value Pair`
 
 ## Screenshot
 <img src="docs/UI_screenshot.png" alt="annotation environment" width="700">
+
+
+
+# InterAnnotator Agreement Assessment
+IAA Calculations by Dean Cahill have been added to this repository. 
+
+This calculates the difference in annotations across annotators. Currently, the IAA calc is only between two annotators.
+Please go to [/raw_annotation_iaa_assessment](/raw_annotation_iaa_assessment). 
+The IAA metric is handled currently as an IOU metric between sets of strings.  
+TODO: Explanation of the IAA calculation tba.
+
+Round 2 was created around date 240201, and is on a previous Annotation Guideline, probably around v3.5. 
+Round 3 was created around date 240223, and is on the Annotation Guideline [v5.2](https://docs.google.com/document/d/1Kxa99JMfDuy-y2xFqmgPkuLnLqEGhNB8iMxBT3E1Tx4/edit) or v5.3.
+
+Please see the [RFB Visualizer v2 README.md](https://github.com/clamsproject/RFB_annotation_visualizer/blob/v2-adjudicator-buttons/README.md)
+for more information on how to do Adjudication. 
+
